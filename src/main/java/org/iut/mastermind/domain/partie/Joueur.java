@@ -17,10 +17,7 @@ public class Joueur {
     // equals
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Joueur)) return false;
-        Joueur joueur = (Joueur) o;
-        return nom.equals(joueur.nom);
+        return nom.equals(((Joueur) o).nom);
     }
 
     // hashcode

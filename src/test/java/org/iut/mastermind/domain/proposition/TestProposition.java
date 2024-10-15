@@ -45,6 +45,7 @@ public class TestProposition {
     void casToutesLettresPlacees() {
         var mot = new MotSecret("SOLID");
         var reponse = mot.compareProposition("SOLID");
+        System.out.println(reponse.lettresResultat());
         assertThat(reponse.lettresToutesPlacees()).isTrue();
     }
 

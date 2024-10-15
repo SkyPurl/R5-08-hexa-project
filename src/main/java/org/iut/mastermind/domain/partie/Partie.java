@@ -58,6 +58,7 @@ public class Partie {
          } else {
               return null;
        }
+
     }
 
     // vérifie que le nombre d'essais max n'est pas atteint
